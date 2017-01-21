@@ -1,7 +1,7 @@
 package codingChallenge;
 
 // by Duji Tufail
-// for The hackathon
+// for Bioconnect's coding challenge
 
 import java.util.HashSet;
 import java.util.Set;
