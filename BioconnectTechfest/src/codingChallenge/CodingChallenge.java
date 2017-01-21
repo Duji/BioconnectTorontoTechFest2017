@@ -37,13 +37,6 @@ public class CodingChallenge {
 			output.add(input);
 			return output;
 		}
-		
-		if(input.length() == 2){
-			output.add(input);
-			String reversedString = new StringBuilder(input).reverse().toString();
-			output.add(reversedString);
-			return output;
-		}
 
 		if(input.length() >= 2){
 
