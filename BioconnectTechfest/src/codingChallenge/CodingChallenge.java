@@ -26,7 +26,7 @@ public class CodingChallenge {
 	//  insert moving character into all possible "spots" for each permutation of strings acquired from previous step
 	
 	// BIG O Analysis:
-	// We multiply the runtime of the size of the string by every single permutation of P(n-1). We do this N times.
+	// We multiply the runtime of the size of the string by every single permutation of P(n-1). We do this N times. : O(n*n!) = O(n!)
 	// eg. for P("abx") we insert "x" into all places for all P("ab") which are ["ab","ba"]
 	
 	private static Set<String> findPerms(String input){
